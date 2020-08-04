@@ -1,0 +1,17 @@
+  #ejemplo de tupla para una conexion a una base de datos
+
+  print("\n Conectar a la base de datos MySql")
+  print("=========================\n")
+  conexion_base_de_datos = "156.504.07.75", "accesoroot", "oasd8234", "users"
+  print("Conexion tipica:", conexion_base_de_datos)
+  print(conexion_base_de_datos)
+  conexion_c = conexion_base_de_datos, "3457", "19"
+  print("\nConexion con estos parametros:", conexion_c)
+  print(conexion_c)
+  print("\n")
+  print("Acceder a la IP de la base de datos:", conexion_c[0][0])
+  print("\nAcceder al usuario de la base de datos:". conexion_c[0][1])
+  print("\nAcceder a la clave de la base de datos:", conexion_c[0][2])
+  print("\Acceder al nombre de la base de datos:", conexion_c[0][3])
+  print("\nAcceder al puerto:", conexion_c[1])
+  print("\nAcceder al tiempo de espera de conexion:", conexion_c[2])

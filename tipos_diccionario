@@ -1,0 +1,30 @@
+cuentos_caicedo = {
+  "Cuento1":"El silencio", "año1":"1964",
+  "Cuento2": "El ideal", "año2":"1965"
+  "Cuento3": "Infeccion", "año3":"1966,
+  "Cuento4": "Los dientes de Caperucita", "año4":"1969",
+  "Cuento5": "Los mensajeros", "año5": "1969",
+  "Cuento6": "Por eso yo regreso a mi ciudad", "año6": "1969",
+  "Cuento7": "Vacío", "año7":"1969",
+  "Cuento8": "Besacalles", "año8":"1969",
+  "Cuento9": "De arriba a abajo de izquierda a derecha", "año9": "1969",
+  "Cuento10": "El espectador", "año10":"1969",
+  "Cuento11": "Felices amistades", "año11":"1969",
+  "Cuento12": "Lulita, ¿Que no quiere abrir la puerta", "año12": "1969",
+  "Cuento13": "Berenice", "año13":"1969",
+  "Cuento14": "Antígona", "año14": "1970",
+  "Cuento15": "Patricialinda", "año15": "1971",
+  "Cuento16": "Calibalismo", "año16": "1971",
+  "Cuento17": "Destinitos fatales", "año17": "1971",
+  "Cuento18": "El atravesado". "año18":"1971",
+  "Cuento19": "El tiempo de la ciénaga", "año19": "1972",
+  "Cuento20": " El pretendiente", "año20": "1972",
+  "Cuento21": "Maternidad", "año21": "1974",
+  "Cuento22": "En las garras del crimen", "año21":"1975",
+  "Cuento23": "Pronto", "año22":"1976"
+}
+print("\nDetalle del diccionario de cuentos de Caicedo")
+print("_______________________________________________")
+print("\nClaves del diccionario:", cuentos_caicedo.keys())
+print("\nValores el diccionario:", cuentos_caicedo.values())
+print("\nElementos del diccionario:", cuentos_caicedo.items())
